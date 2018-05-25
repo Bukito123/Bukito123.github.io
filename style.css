@@ -1,0 +1,241 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1;overflow-x:hidden;position:relative}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}footer,header,main{float:left;width:100%}table{border-collapse:collapse;border-spacing:0}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}.footerWrap,.headerWrap,.mainWrap{position:relative;clear:both}a,b,blockquote,button,div,em,h1,h2,h3,h4,h5,h6,i,input,li,p,span,strong,ul{text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img{max-width:100%;height:auto}em,i{font-style:italic}b,strong{font-weight:700}
+
+*{
+	box-sizing: border-box;
+}
+/*qa bon qeky kod nalt eshte qe jau jep widthin divave elementeve krejtve sado qe kan jo me ja llogarit ma shume se qe kan*/
+/* Layout */
+
+body {
+    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+	color:#2a3843;
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+
+p {
+	margin:0;
+	padding:0;n
+  
+}
+
+#wrapper {
+	margin:0 auto;
+	width:632px;
+	border-left:1px solid #f0e9eb;
+	border-right:1px solid #f0e9eb;
+}
+
+#header {
+	margin:0 1px;
+}
+
+#bg {
+	height:36px;
+	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
+}
+
+#main-content {
+	margin:0 auto;
+}
+
+#main-image {
+	text-align:center;
+}
+
+#left-column {
+	width:300px;
+	padding:0 30px 30px;
+	float:left;
+}
+
+#right-column {
+	width:270px;
+	float:right;
+}
+
+.sidebar {
+	width:218px;
+	margin:0 auto;
+	padding:10px 25px;
+	background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
+}
+
+#footer {
+	background:#f7f7f7;
+	border-top:1px solid #f0e9eb;
+	padding:10px 15px;
+	clear:both;
+}
+
+/* Global Styling */
+
+a:visited, a:link {
+	color:#a43b55;
+	text-decoration:underline;
+	background:none;
+}
+
+a:hover {
+	color:#a43b55;
+	text-decoration:none;
+	background:none;
+}
+
+h1 {
+	color:#7a2e40;
+	margin:0 0 10px;
+	padding-bottom:10px;
+	font:normal 17px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
+h2 {
+	color:#7a2e40;
+	margin:20px 0 10px;
+	padding-bottom:10px;
+	font:normal 17px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
+h3 {
+	color:#7a2e40;
+	margin:10px 0;
+	padding-bottom:10px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	border-bottom:1px solid #efece7;
+}
+
+ul {
+	padding:0;
+	margin:0 0 0 17px;
+	list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
+}
+
+.box {
+	background:#f7f7f7;
+	float: left;
+	width: 100%;
+	border:1px solid #f0e9eb;
+	padding:15px;
+	}
+
+#nav {
+	float: left;
+	width: 100%;
+	background:#06a;
+	padding:10px 20px;
+	text-align:right;
+	color:#f6dde3;
+}
+#nav  ul{
+	list-style: none;
+	float: left;
+}
+#nav  li{
+	float: left;
+	margin-left: 30px;
+}
+
+#nav a {
+	padding: 0 10px;
+}
+
+#nav a:visited, #nav a:link {
+	text-decoration:none;
+	color:#f6dde3;
+}
+
+#nav a:hover {
+	text-decoration:underline;
+	color:#f6dde3;
+}
+
+#logo {
+	margin-bottom:20px;
+	font:normal 18px Georgia, serif;
+	color:#fa7393;
+}
+
+
+
+
+
+
+.gallery
+{
+    margin-top:20px;
+    float:left;
+    padding:10px;
+    width: 33.3333%;
+}
+
+.gallery img {
+    border-radius: 50%;
+    transition: all .3s ease-out;
+ }
+.gallery img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border-radius: 50%;
+}
+.img1, .img2, .img3, .img4, .img5{
+    margin:25px;
+    border:1px solid;
+    background-blend-mode: lighten;
+    background-color: springgreen;
+    box-shadow: skyblue;
+    -moz-backface-visibility: visible;
+    padding:10px;
+    text-align:center;
+    text-decoration-line: initial;
+    font-size:15px;
+    font-style:Arial;
+    
+}
+.body-about{
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-image: url(../images/Drrasa.jpg)
+}
+.container{
+	max-width: 1200px;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*MEDIA QUERY per Mobile Phones*/
+@media only screen and (max-width: 767px){
+	
+	#wrapper{
+		width: 100%;
+		padding: 0 15px;
+	}
+	.gallery{
+		width: 100%;
+	}
+
+
+}
+/*END of MEDIA QUERY per Mobile Phones*/
+/*MEDIA QUERY per Small Tablets*/
+@media only screen and (min-width: 768px) and ( max-width: 990px){
+	body{
+		background-color: red;
+	}
+}
+/*END of MEDIA QUERY per Small Tablets*/
+/*MEDIA QUERY per Big Tablets*/
+@media only screen and (min-width: 991px) and ( max-width: 1024px){
+	body{
+		background-color: green;
+	}
+}
+/*END of MEDIA QUERY per Big Tablets*/
