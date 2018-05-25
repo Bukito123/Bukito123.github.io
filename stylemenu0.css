@@ -193,7 +193,7 @@ p {
 }
 
 .column {
- width: 23%;
+ width: %;
  display: inline-block;
  color: green;
  border: 2px solid grey;
